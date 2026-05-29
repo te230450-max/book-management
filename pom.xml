@@ -29,6 +29,10 @@
 		<java.version>21</java.version>
 	</properties>
 	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
 		<!-- 既存の依存関係 -->
     	<dependency>
         	<groupId>org.springframework.boot</groupId>
